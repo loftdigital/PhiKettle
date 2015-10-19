@@ -1,7 +1,5 @@
 # PhiKettle
 
-[![Build Status](https://travis-ci.org/loftdigital/PhiKettle.svg?branch=develop)](https://travis-ci.org/loftdigital/PhiKettle)
-
 PhiKettle is a PHP API which allows you to control your [iKettle](http://www.firebox.com/product/6068/iKettle). The library provides basic functionality
 for kettle control and response handling. It's built on top of the [reactphp](http://reactphp.org/) library.
 
@@ -10,7 +8,7 @@ A write up of the Kettle protocol: http://www.awe.com/mark/blog/20140223.html
 ## Installation
 Using Composer:
 ```
-composer require loft-digital/phikettle
+composer require LoftDigital/PhiKettle 1.0.0
 ```
 
 ## Kettle IP address discovery
@@ -64,16 +62,3 @@ boil
 off
 => Kettle was turned off
 ```
-
-## Contributing
-
-Contributions, suggestions and fixes are more than welcome.
-
-General contribution guidelines apply:
-
-1. Fork the repository
-1. Create a feature/hotfix branch off of master
-1. Run PHPUnit tests (`$ ./vendor/bin/phpunit`)
-1. Commit and push the branch
-1. Make a pull request
-1. If you're unsure on whether your contribution will be required then please file an issue first and we can discuss it.

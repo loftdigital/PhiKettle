@@ -1,5 +1,5 @@
 {
-  "name": "loft-digital/phikettle",
+  "name": "LoftDigital/PhiKettle",
   "description": "",
   "keywords": ["ikettle", "kettle", "wifi-kettle"],
   "type": "library",
@@ -13,7 +13,6 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0",
     "react/event-loop": "^0.4.1",
     "react/promise": "^2.2",
     "react/dns": "^0.4.1",
